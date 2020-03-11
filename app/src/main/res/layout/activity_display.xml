@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity"
+    android:orientation="vertical"
+    android:background="@color/grey">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"></android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/frame_size"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back" />
+
+                <Button
+                    android:id="@+id/medicalButton"
+                    android:layout_width="130dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Medical"
+                    android:textSize="28dp"
+                    android:fontFamily="monospace"
+                    android:background="@drawable/selectors" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/frame_size"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/preparationButton"
+                android:layout_width="210dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="Preparation"
+                android:textSize="28dp"
+                android:fontFamily="monospace"
+                android:background="@drawable/selectors" />
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <Button
+                android:id="@+id/dueButton"
+                android:layout_width="210dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Due Date"
+                android:textSize="28dp"
+                android:fontFamily="monospace"
+                android:background="@drawable/selectors" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <Button
+                android:id="@+id/shoppingButton"
+                android:layout_width="210dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="shopping"
+                android:textSize="28dp"
+                android:fontFamily="monospace"
+                android:background="@drawable/selectors" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <Button
+                android:id="@+id/smsButton"
+                android:layout_width="210dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="direct sms"
+                android:textSize="28dp"
+                android:fontFamily="monospace"
+                android:background="@drawable/selectors" />
+
+        </FrameLayout>
+
+
+
+     </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>
