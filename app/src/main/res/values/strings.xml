@@ -3,4 +3,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="heading">Home</string>
+    <string name="medical">Medical</string>
+    <string name="preparation">Preparation</string>
+    <string name="date">Due Date</string>
+    <string name="shopping">Shopping</string>
+    <string name="sms">Direct SMS</string>
 </resources>
