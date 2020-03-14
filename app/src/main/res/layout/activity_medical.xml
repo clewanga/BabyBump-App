@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".medicalActivity"
     android:orientation="vertical"
-    android:background="@drawable/backgg">
+    android:background="@drawable/background">
 
 
 </LinearLayout>

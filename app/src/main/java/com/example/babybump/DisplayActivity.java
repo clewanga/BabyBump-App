@@ -44,6 +44,14 @@ public class DisplayActivity extends AppCompatActivity {
                 startActivity(preparation);
             }
         });
+
+        messageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent message = new Intent(DisplayActivity.this,messageActivity.class);
+                startActivity(message);
+            }
+        });
     }
 
 }

@@ -7,6 +7,21 @@
     <string name="medical">Medical</string>
     <string name="preparation">Preparation</string>
     <string name="date">Due Date</string>
-    <string name="shopping">Shopping</string>
-    <string name="sms">Direct SMS</string>
+    <string name="shopping">Shops</string>
+    <string name="sms">Message</string>
+    <string name="welcome">Welcome!</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="register">Register</string>
+    <string name="member">You are not a member?</string>
+    <string name="remember">Remember me</string>
+
+    <string name="first">First name</string>
+    <string name="middle">Middle name</string>
+    <string name="last">Last name</string>
+    <string name="phone">Phone number</string>
+    <string name="sign">Sign Up</string>
 </resources>
+
+
